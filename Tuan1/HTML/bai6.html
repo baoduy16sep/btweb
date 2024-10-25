@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai6</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto
+            
+        }
+        table{
+            width: 800px;
+            height: 800px;
+            border-collapse: collapse;
+            background-color:#9fc7fe;
+            border: none;
+        }
+        tr,td, th {
+            border: none;
+        }
+        th, td {            
+            border: none; /* Bỏ đường kẻ */
+          
+        }
+        div{
+            margin-top: 20px;
+            width: 550px;
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <tr>
+            <td colspan="3" align="center">
+                <img src="../images/hinhb6.png"</td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            
+            <td colspan="3" align="center"><h1><strong>Registration Form</strong></h1></td>
+            
+        </tr>
+        <tr>
+            
+            <td colspan="3" align="center">Register your Jackson Electronics product here</td>
+            
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">First Name:</label>                  
+
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type="text" name ="txtfirstname" id="txtfirstname">
+                </form>
+            </td>
+            <td>
+                <form>
+                    <label for="">Last Name:</label>
+                    <input type="text" name ="txtlastname" id="txtlastname">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">Address #1:</label>
+                    
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type="text" name ="txtadd1" id="txtadd1">
+                </form>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">Address #2:</label>
+                
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type="text" name ="txtadd2" id="txtadd2">
+                </form>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">City:</label>
+
+                </form>
+
+            </td>
+            <td>
+                <form>                
+                    <input type="text" name ="txtcity" id="txtcity">
+                </form>
+            </td>
+            <td>
+                <form>
+                    <label for="">State:</label>
+                    <input type="text" name ="txtstate" id="txtstate">
+                    <label for="">Zip:</label>
+                    <input type="text" name ="txtzip" id="txtzip">
+
+
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">Country:</label>
+
+                </form>
+            </td>
+            
+            <td>
+                <form>                
+                    <input type="text" name ="txtcountry" id="txtcountry">
+                </form>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                
+                <hr style="border: 1px solid #000;">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">Product:</label>
+
+                </form>
+            </td>
+            <td>
+                <form>
+                    <select name="Product:">
+                        <option value="1">ScanMaster
+                        <option value="2">abc
+
+                    </select>
+                </form>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">Date Purchased:</label>
+
+                </form>
+            </td>
+            <td>
+                <form>                
+                    <input type="text" name ="txtdate" id="txtdate">
+                </form>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">Serial #:</label>
+
+                </form>
+            </td>
+            <td>
+                <form>                
+                    <input type="text" name ="txtserial" id="txtserial">
+                </form>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">Used for:</label>
+
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type='radio' name=use value=home>Home<br>
+                    <input type='radio' name=use value=bus>Business<br>
+                    <input type='radio' name=use value=gov>Government<br>
+                    
+                   </form>
+            </td>
+            <td>
+                <form>
+                    <input type='radio' name=use value=ed>Educational Institution<br>
+                    <input type='radio' name=use value=other>Other<br>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">System (Check all that apply):</label>
+
+                </form>
+            </td>
+            <td>
+                <form>
+                    <Input Type='Checkbox' Name='sys' Value='Windows' Checked>Windows<br>
+                    <Input Type='Checkbox' Name='sys' Value='Mac'> Macintosh<br>
+            
+                </form>
+            </td>
+            <td>
+                <form>
+                    <Input Type='Checkbox' Name='sys' Value='unix' Checked>UNIX<br>
+                    <Input Type='Checkbox' Name='sys' Value='other'> Other<br>
+            
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                
+                <hr style="border: 1px solid #2d1502;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <label for="">Comments?:</label>
+
+                </form>
+            </td>
+            <td colspan="2">
+                <form>                    
+                    <textarea rows=4 cols=50 name=comments>
+                    </textarea>
+                    </form>
+            </td>
+            
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <input type="submit" value="Click to register">
+                <input type="reset" value="Click to cancel">
+            </td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    </div>
+    
+</body>
+</html>
